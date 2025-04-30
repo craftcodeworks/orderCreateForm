@@ -1,0 +1,349 @@
+.THIS .lightbluebackground
+{
+  background-color:#E6EDf5;
+    font-weight: bold;
+}
+ 
+.THIS .arrowbackgroundd
+{
+ background-image:   url(   https://www.extramarks.com/static/media/home_banner.f8c91fa1.svg);
+}
+
+
+.THIS .arrowbackgroundd2
+{
+    background-image:   url(https://www.extramarks.com/static/media/path-arrow-left-with-dots.a33a33a3.svg);
+  
+}
+
+
+.THIS .icon-small i {
+    float: left;
+    margin-right: 10px;
+    margin-top:-5px;
+    /* ... */
+}
+.THIS .icon-small1 i {
+    float: left;
+    margin-right:2px;
+    margin-top:2px;
+    /* ... */
+}
+.THIS .spinnerContainer{width:100%; height:100%;}
+.THIS .spinnerContainer .spinnerGif
+{	width:180px;
+    height:180px;
+    
+    display:inline-block;
+    position:absolute;
+    left:0; 
+    right:0; 
+    top:0;
+    bottom:0; 
+    margin:auto; 
+    z-index:99;
+}
+
+
+ 
+.THIS .spinnerContainer .spinnerGif1
+{
+    width:450px;
+    height:400px;
+    color:#ff471a;
+    font-size: 22px;
+     z-index:99;
+     display:inline-block;
+    position:absolute;
+    left:0; 
+    right:0; 
+    top:70%;
+    bottom:0; 
+    margin:auto; 
+    z-index:99;
+}
+ .THIS .slds-backdrop {
+    background-color: white;
+    z-index:9;
+}
+
+.THIS .filehide
+{
+display:none;    
+}
+.THIS .myCheckbox{
+  display: inline-block;
+  float: left;
+}
+.THIS .emand
+{
+    font-weight:bold;
+    color:red;
+}
+.THIS .hoverb:hover {
+    opacity: 5px;
+    background-color:#ff6600;
+}
+
+
+.THIS .rightside
+{
+   font-weight: bold;
+    float: left;
+    
+}
+.THIS .spins::after {
+    position: absolute;
+    content: 'Please wait while the page loads. Do not refresh or click on the back button';
+    width: 100%;
+    text-align: center;
+    top: calc(50% + 3em);
+    
+    color : #F45E29;
+     font-size: 22px;
+}
+.THIS .left-align {
+    text-align: left;
+}
+.THIS .right-align {
+    text-align: right;
+}
+.THIS .a
+{
+    height:100%;
+}
+.THIS .test
+{
+    background-color:#F45E29;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif; 
+    border-radius:20px;
+}
+@media screen and (min-width: 601px) {
+  .THIS .slds-select {
+    width:330px;
+  }}
+
+@media screen and (max-width: 600px) {
+  .select_width.THIS{
+    width:300px;
+  }}
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+/*@media screen and (max-width: 600px) {
+  .THIS .slds-select {
+    width:230px;
+  }}
+*/
+
+
+.THIS .uiLabel {
+    font-size:15px;
+}
+ 
+.THIS .slds-form-element__label {
+    font-size:75px;
+}
+
+.THIS .slds-checkbox__label {
+    font-size:25px;
+}
+
+
+
+/* hide medium and above */
+@media all and (min-width: 768px) {
+    .THIS .medium-hide {
+        display:none;
+    }
+}
+
+.THIS .slds-dueling-list__options
+{
+    height:100px;
+}
+.THIS .streamPicklist{
+    width: 11.3rem !important;
+    /* margin-left: 0.7rem !important; */
+}
+.THIS .subjectBox{
+    width: 20.4rem !important;
+    /* margin-left: 0.7rem !important; */
+}
+
+
+
+
+
+
+.THIS .slds-form-element__label {
+     font-size: 16px;
+    
+      
+} 
+.THIS .disabled {
+    pointer-events:none; 
+}
+.THIS .bold {
+     font-size: 20px;
+    font-weight:bold;
+    margin-left:5%;
+    z-index:+2;
+     color:white;
+      
+} 
+.THIS .with
+ {
+  width:20px;  
+}
+
+
+.THIS .slds-select_container{  
+       
+  float:left;
+    
+
+    
+}
+.THIS .slds-form-element__control .slds-grow{
+    
+      
+    
+}
+
+
+
+
+
+.THIS .customRadioCls .slds-form-element__control .slds-radio{
+    display : inline-block !important;
+    
+}
+.THIS .slds-radio_faux{
+    padding:10px 10px 10px 10px;
+}
+.THIS .slds-form-element__label
+
+    {
+    padding:5px 5px 5px 5px;
+}
+
+.THIS .slds-radio [type="radio"]:checked + .slds-radio__label .slds-radio_faux::after{
+   /* border-color: #F37A21;*/
+    background: #F37A21;
+}
+
+.THIS #customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.THIS .table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.THIS .th .td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.THIS #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+.THIS #customers tr:hover {background-color: #ddd;}
+
+.THIS #customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.THIS .myCheckbox{
+  display: inline-block;
+  float: left;
+}*/
+
+.THIS .emloan{
+	width: 100% !important;
+	max-width: 100% !important;
+    margin: 0 auto;
+}
+.THIS .one
+{background-color:#F45E29;
+border: 1px solid #F45E29;
+    color:white;
+}
+.THIS .oneer
+{background-color:#F45E29;
+border: 1px solid #F45E29;
+    
+    margin-left:80%;
+}
+.THIS .slds-theme_backgroundColor-lightblue {
+    background-color: lightblue;
+}
+.THIS .foot
+{
+    background-color:#F45E29;color:white;
+    border: 1px solid #F45E29;
+
+}
+.THIS .foot1
+{
+ color:#F45E29;
+        border: 1px solid #F45E29;
+
+    
+
+}
+
+.THIS .myCheckbox{
+  display: inline-block;
+  float: left;
+     margin-top:5px;
+}
+ 
+/*.THIS .slds-input
+{
+    
+    width: 80%;
+     
+      border-width: 1px !important;
+      border-style: solid !important;
+      border-radius: 3px !important;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1.2em;
+      background-color:white;
+      border-color: #cccccc;
+    
+}*/
+.THIS .slds-button .slds-button_brand
+{
+    width:100%;
+   background-color:#F37A21;
+}
